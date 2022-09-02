@@ -1982,11 +1982,21 @@ html,body {
 		padding:15px;
 	}
 }
-@media (max-width: 620px ) {
-	.slide-desc{
+@media (max-width: 980px ) {
+	.slide-desc h1{
 		display:none;
 	}
-	
+	.slide-desc p{
+		display:none;
+	}
+	.slide-desc .price_{
+		display:none;
+	}
+}
+@media (min-width: 980px ) {
+	.slide-desc .price_ {
+		visibility: hidden;
+	}
 }
 @media (max-width: 600px ) {
 	.meta-logo{
